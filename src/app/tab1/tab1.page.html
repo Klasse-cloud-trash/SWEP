@@ -1,0 +1,56 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Katex
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Katex</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <h2>{{title}}</h2>
+
+  <div>
+    <label>Input:
+    <div class="container">
+      <input id="eqIn" [(ngModel)]="eqinput" placeholder="" size="100" color="red" #eqIn/>
+    </div>
+    </label>
+
+    <br><br>
+
+    <div (mouseenter)="mouseHovering()" (mouseleave)="mouseLeft()">
+      <table class="equation">
+        <td>
+          <ng-katex #eq [equation]="eqinput"></ng-katex>
+        </td>
+        <td>
+          <div class="hoverBtn" *ngIf="isHovering">
+            <button #copyBtn (click)="copyInput(eqIn)">Copy</button>
+            <button #solveBtn (click)='openLink()'>Solve</button>
+          </div>
+        </td>
+      </table>
+    </div>
+
+    <br>
+
+    <div class="grid-container">
+      <button #sqrtBtn name="\sqrt{}#6" (click)="equationBtn(sqrtBtn)"><ng-katex [equation]='buttonLbls.sqrtLbl'></ng-katex></button>
+      <button #usBtn name="_{y}#2" (click)="equationBtn(usBtn)"><ng-katex [equation]='buttonLbls.underscoreLbl'></ng-katex></button>
+      <button #intBtn name="\int_a^b f() dx#11" (click)="equationBtn(intBtn)"><ng-katex [equation]='buttonLbls.intLbl'></ng-katex></button>
+      <button #pmBtn name="\pm#3" (click)="equationBtn(pmBtn)"><ng-katex [equation]='buttonLbls.pmLbl'></ng-katex></button>
+      <button #fracBtn name="\frac{}{y}#6" (click)="equationBtn(fracBtn)"><ng-katex [equation]='buttonLbls.fracLbl'></ng-katex></button>
+    </div>
+
+  </div>
+
+</ion-content>
+
+

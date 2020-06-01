@@ -1,0 +1,16 @@
+.buttons {
+  width: 80%;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+.container{
+  color: black;
+}
