@@ -6,6 +6,8 @@ import { FormsModule } from '@angular/forms';
 import { Tab3Page } from './tab3.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
+import { PdfViewerModule } from 'ng2-pdf-viewer';
+
 import { Tab3PageRoutingModule } from './tab3-routing.module'
 
 @NgModule({
@@ -16,6 +18,7 @@ import { Tab3PageRoutingModule } from './tab3-routing.module'
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab3Page }]),
     Tab3PageRoutingModule,
+    PdfViewerModule
   ],
   declarations: [Tab3Page]
 })

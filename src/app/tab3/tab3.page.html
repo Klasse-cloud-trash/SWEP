@@ -14,4 +14,12 @@
   </ion-header>
 
   <app-explore-container name="Tab 3 page"></app-explore-container>
+
+  <pdf-viewer [src]="pdfSrc"
+              [render-text]="true"
+              [original-size]="false"
+              [autoresize]="true"
+              [external-link-target]="'blank'"
+              style="display: block;"
+  ></pdf-viewer>
 </ion-content>
