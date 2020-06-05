@@ -9,9 +9,4 @@ export class Tab2Page {
 
   constructor() {}
 
-  myDate: String = new Date().toDateString();
-  edit()
-  {
-
-  }
 }

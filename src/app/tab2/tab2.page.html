@@ -1,9 +1,8 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color = "success">
-    <ion-title start>Addieren</ion-title>
-    <ion-buttons slot="end" >
-      <button (click) = "edit()" style="background-color: #2dd36f" ><ion-icon name="pencil" color="light" ></ion-icon></button>
-    </ion-buttons>
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -13,19 +12,6 @@
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
-  <div>
-    <ion-item >
-      <ion-label class="ion-text-wrap" style="min-height: 120px">
-        Beschreibung wasdasdasdasdasdasdafasfaf asf a sfa sf asf as fasfasfasf asf asf asfa s f  affsfasfasf.
-        Beschreibung wasdasdasdasdasdasdafasfaf asf a sfa sf asf as fasfasfasf asf asf asfa s f
-      </ion-label>
-    </ion-item>
-  </div>
-  <div>
-    <ion-item>
-      <ion-icon name="calendar-outline" color="success"> </ion-icon>
-      <ion-datetime display-format="DD/MM/YYYY" [(ngModel)]="myDate"> </ion-datetime>
-      <ion-icon name="navigate-outline" color="success" style="font-size: 20px" > </ion-icon>
-    </ion-item>
-  </div>
+
+  <app-explore-container name="Tab 2 page"></app-explore-container>
 </ion-content>
