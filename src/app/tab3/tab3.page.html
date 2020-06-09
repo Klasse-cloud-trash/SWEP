@@ -15,10 +15,13 @@
 
   <app-explore-container name="Tab 3 page"></app-explore-container>
 
+  <button name="zoomPlus" (click)="changeZoom(-0.10)">zoom: - </button>
+  <button name="zoomMinus" (click)="changeZoom(+0.10)">zoom: + </button>
+
   <pdf-viewer [src]="pdfSrc"
               [render-text]="true"
               [original-size]="false"
-              [autoresize]="true"
+              [zoom] = zoom
               [external-link-target]="'blank'"
               style="display: block;"
   ></pdf-viewer>

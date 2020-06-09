@@ -7,8 +7,15 @@ import { Component } from '@angular/core';
 })
 export class Tab3Page {
   title: string = "a PDF file";
+
+  zoom = 1;
+
   pdfSrc = "https://vadimdez.github.io/ng2-pdf-viewer/assets/pdf-test.pdf";
 
   constructor() {}
+
+  changeZoom(val) {
+    this.zoom += val;
+  }
 
 }
