@@ -27,3 +27,81 @@
 
 /* Load Katex */
 @import '~katex/dist/katex.css';
+
+:root {
+  --ion-color-cyan: #24dbc6;
+  --ion-color-cyan-rgb: 36,219,198;
+  --ion-color-cyan-contrast: #000000;
+  --ion-color-cyan-contrast-rgb: 0,0,0;
+  --ion-color-cyan-shade: #20c1ae;
+  --ion-color-cyan-tint: #3adfcc;
+}
+
+
+
+.ion-color-white {
+  --ion-color-base: var(--ion-color-white);
+  --ion-color-base-rgb: var(--ion-color-white-rgb);
+  --ion-color-contrast: var(--ion-color-white-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-white-contrast-rgb);
+  --ion-color-shade: var(--ion-color-white-shade);
+  --ion-color-tint: var(--ion-color-white-tint);
+}
+
+:root {
+  --ion-color-black: #000000;
+  --ion-color-black-rgb: 0,0,0;
+  --ion-color-black-contrast: #ffffff;
+  --ion-color-black-contrast-rgb: 255,255,255;
+  --ion-color-black-shade: #000000;
+  --ion-color-black-tint: #1a1a1a;
+}
+
+.ion-color-black {
+  --ion-color-base: var(--ion-color-black);
+  --ion-color-base-rgb: var(--ion-color-black-rgb);
+  --ion-color-contrast: var(--ion-color-black-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-black-contrast-rgb);
+  --ion-color-shade: var(--ion-color-black-shade);
+  --ion-color-tint: var(--ion-color-black-tint);
+}
+
+.ion-color-cyan {
+  --ion-color-base: var(--ion-color-cyan);
+  --ion-color-base-rgb: var(--ion-color-cyan-rgb);
+  --ion-color-contrast: var(--ion-color-cyan-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-cyan-contrast-rgb);
+  --ion-color-shade: var(--ion-color-cyan-shade);
+  --ion-color-tint: var(--ion-color-cyan-tint);
+}
+
+:root {
+  --ion-color-white: #ffffff;
+  --ion-color-white-rgb: 255,255,255;
+  --ion-color-white-contrast: #000000;
+  --ion-color-white-contrast-rgb: 0,0,0;
+  --ion-color-white-shade: #e0e0e0;
+  --ion-color-white-tint: #ffffff;
+
+}
+
+
+:root {
+  --ion-color-blue: #1c31d4;
+  --ion-color-blue-rgb: 28,49,212;
+  --ion-color-blue-contrast: #ffffff;
+  --ion-color-blue-contrast-rgb: 255,255,255;
+  --ion-color-blue-shade: #192bbb;
+  --ion-color-blue-tint: #3346d8;
+}
+
+.ion-color-blue {
+  --ion-color-base: var(--ion-color-blue);
+  --ion-color-base-rgb: var(--ion-color-blue-rgb);
+  --ion-color-contrast: var(--ion-color-blue-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-blue-contrast-rgb);
+  --ion-color-shade: var(--ion-color-blue-shade);
+  --ion-color-tint: var(--ion-color-blue-tint);
+}
+
+

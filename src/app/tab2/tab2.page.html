@@ -1,17 +1,65 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Aufgaben
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
   <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card color="white">
+
+    <div (click)="switchHide()">
+      <ion-item color="cyan" lines="none">
+        <ion-card-title color="white">{{title}}</ion-card-title>
+      </ion-item>
+      <br>
+      <ion-item color="white" lines="none">
+        {{subtitle}}
+      </ion-item>
+      <br>
+      <ion-item color="white" lines="full">
+      <span slot="start">
+        <ion-icon name="calendar"></ion-icon>
+         20.02.2020
+      </span>
+        <span slot="end">
+        Herr Müller
+        <ion-icon name="happy-outline"></ion-icon>
+      </span>
+      </ion-item>
+    </div>
+
+    <div *ngIf="!hideContent">
+      <ion-card-content>
+        <ng-container *ngFor="let eq of eqs.mode; let i = index">
+          <ng-container *ngIf="eq == 0; else katex">
+            {{eqs.text[i]}}
+          </ng-container>
+          <ng-template #katex>
+            <ng-katex [equation]="eqs.text[i]"></ng-katex>
+          </ng-template>
+        </ng-container>
+      </ion-card-content>
+
+      <ion-item color="white" href="/something.pdf">
+        <ion-label color="black">something.pdf</ion-label>
+      </ion-item>
+    </div>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-item color="primary" button (click)="send()">
+      <ion-label color="black">Aufgabe senden</ion-label>
+    </ion-item>
+  </ion-card>
+
 </ion-content>
