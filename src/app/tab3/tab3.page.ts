@@ -53,5 +53,4 @@ export class Tab3Page {
         URL.revokeObjectURL(objectUrl);
       })
   }
-
 }

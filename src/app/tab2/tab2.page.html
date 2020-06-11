@@ -1,22 +1,14 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Aufgaben
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Aufgaben</ion-title>
+    <ion-toolbar color = "success">
+      <ion-title start>Addieren</ion-title>
+      <ion-buttons slot="end" >
+        <button (click) = "edit()" style="background-color: #2dd36f" ><ion-icon name="pencil" color="light" ></ion-icon></button>
+      </ion-buttons>
     </ion-toolbar>
-  </ion-header>
-
+</ion-header>
+<ion-content>
   <ion-card color="white">
-
-    <div (click)="switchHide()">
+       <div (click)="switchHide()">
       <ion-item color="cyan" lines="none">
         <ion-card-title color="white">{{title}}</ion-card-title>
       </ion-item>
@@ -27,8 +19,9 @@
       <br>
       <ion-item color="white" lines="full">
       <span slot="start">
-        <ion-icon name="calendar"></ion-icon>
-         20.02.2020
+        <ion-icon name="calendar"></ion-icon> 
+             <ion-datetime display-format="DD.MM.YYYY HH:mm" minute-values="0,15,30,45" [(ngModel)]="endDate" [min]="minDate" [max]="maxData"> </ion-datetime>
+    <ion-icon name="navigate-outline" color="success" style="font-size: 20px" > </ion-icon>
       </span>
         <span slot="end">
         Herr Müller
@@ -36,7 +29,7 @@
       </span>
       </ion-item>
     </div>
-
+    
     <div *ngIf="!hideContent">
       <ion-card-content>
         <ng-container *ngFor="let eq of eqs.mode; let i = index">
@@ -61,5 +54,4 @@
       <ion-label color="black">Aufgabe senden</ion-label>
     </ion-item>
   </ion-card>
-
 </ion-content>

@@ -19,6 +19,11 @@ export class Tab2Page {
     };
 
   constructor() {}
+  minDate: string = new Date().toISOString();
+  maxData: any = (new Date()).getFullYear() + 1;
+  endDate: string = new Date().toDateString();
+  edit()
+  {
 
   send(){
     if(!this.hideContent)
@@ -28,5 +33,4 @@ export class Tab2Page {
   switchHide(){
     this.hideContent ? this.hideContent=false : this.hideContent=true;
   }
-
 }
