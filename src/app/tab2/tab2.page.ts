@@ -13,9 +13,7 @@ export class Tab2Page {
     content: string = 'Hier lassen sich 2 bis 3 Zahlen im dreistelligen sechsstelligen Bereich schriftlich addieren. Für den Übertrag sind die gestrichelten Kästchen vorgesehen.';
     hideContent = false;
 
-    minDate: string = new Date().toISOString();
-    maxData: any = (new Date()).getFullYear() + 1;
-    endDate: string = new Date().toDateString();
+    endDate: string = new Date().toISOString();
 
     eqs: EquationString ={
         text: [ "Das hier ist eine Formel", "0 = (x^2 + y^2 -1)^3 - x^2 y^3", "toll oder?"],
