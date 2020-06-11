@@ -1,18 +1,19 @@
 <ion-header [translucent]="true">
-    <ion-toolbar color="success">
-        <ion-title start>Addieren</ion-title>
-        <ion-buttons slot="end">
-            <button (click)="edit()" style="background-color: #2dd36f">
-                <ion-icon name="pencil" color="light"></ion-icon>
-            </button>
-        </ion-buttons>
+    <ion-toolbar color="black">
+        <ion-title start>Aufgaben</ion-title>
     </ion-toolbar>
 </ion-header>
+
 <ion-content>
     <ion-card color="white">
         <div (click)="switchHide()">
             <ion-item color="cyan" lines="none">
                 <ion-card-title color="white">{{title}}</ion-card-title>
+                <ion-buttons slot="end">
+                    <button (click)="switchHide()" style="background-color: #24dbc6">
+                        <ion-icon name="pencil" color="light"></ion-icon>
+                    </button>
+                </ion-buttons>
             </ion-item>
             <br>
 
