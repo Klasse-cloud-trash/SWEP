@@ -8,5 +8,11 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
+  minDate: string = new Date().toISOString();
+  maxData: any = (new Date()).getFullYear() + 1;
+  endDate: string = new Date().toDateString();
+  edit()
+  {
 
+  }
 }
