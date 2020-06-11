@@ -4,8 +4,8 @@
     <list default="true" id="7c944a39-108f-42ac-81b4-56da57c73f6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab2/tab2.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab2/tab2.page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab2/tab2.page.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/tab3/tab3.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,9 @@
       <workItem from="1591270003017" duration="47000" />
       <workItem from="1591270126872" duration="7461000" />
       <workItem from="1591344070104" duration="551000" />
-      <workItem from="1591344632324" duration="344000" />
+      <workItem from="1591344632324" duration="807000" />
+      <workItem from="1591621672319" duration="4045000" />
+      <workItem from="1591689938411" duration="2459000" />
     </task>
     <servers />
   </component>
@@ -77,6 +79,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="810" y="242" key="#com.intellij.ide.util.MemberChooser" timestamp="1591691093651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="242" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591691093651" />
     <state x="685" y="262" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1591270015942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

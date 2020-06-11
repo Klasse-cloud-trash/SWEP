@@ -19,7 +19,8 @@
 <div>
   <ion-item>
     <ion-icon name="calendar-outline" color="success"> </ion-icon>
-    <ion-datetime display-format="DD/MM/YYYY" [(ngModel)]="myDate"> </ion-datetime>
+      Abgabe Datum:
+    <ion-datetime display-format="DD.MM.YYYY HH:mm" minute-values="0,15,30,45" [(ngModel)]="endDate" [min]="minDate" [max]="maxData"> </ion-datetime>
     <ion-icon name="navigate-outline" color="success" style="font-size: 20px" > </ion-icon>
   </ion-item>
 </div>
