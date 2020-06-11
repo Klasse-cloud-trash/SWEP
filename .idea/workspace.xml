@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="763151a6-9740-4719-8403-bc09dfe646a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="pdf-darstellung" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1cjCbpgW1RNH67Yme8eCpVvB3A6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RunManager" selected="npm.Angular CLI Server">
+    <configuration name="E2E Tests (app)" type="JavaScriptTestRunnerProtractor">
+      <config-file value="$PROJECT_DIR$/e2e/protractor.conf.js" />
+      <node-interpreter value="project" />
+      <protractor-package value="" />
+      <protractor-options value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular CLI Server" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="763151a6-9740-4719-8403-bc09dfe646a2" name="Default Changelist" comment="" />
+      <created>1591032689353</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591032689353</updated>
+      <workItem from="1591032690862" duration="1200000" />
+      <workItem from="1591082747024" duration="1844000" />
+      <workItem from="1591275628250" duration="3493000" />
+      <workItem from="1591339004485" duration="2382000" />
+      <workItem from="1591688857255" duration="3437000" />
+      <workItem from="1591858640338" duration="7787000" />
+    </task>
+    <task id="LOCAL-00001" summary="zoom buttons">
+      <created>1591690108635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591690108635</updated>
+    </task>
+    <task id="LOCAL-00002" summary="og size button, auto resize button &amp; download button">
+      <created>1591867384297</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591867384297</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/test-ng-katex/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/test-ng-katex/myApp/node_modules/karma/config.tpl.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zoom buttons" />
+    <MESSAGE value="og size button, auto resize button &amp; download button" />
+    <option name="LAST_COMMIT_MESSAGE" value="og size button, auto resize button &amp; download button" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="917" y="165" key="CommitChangelistDialog2" timestamp="1591867384014">
+      <screen x="32" y="23" width="2528" height="1057" />
+    </state>
+    <state x="917" y="165" key="CommitChangelistDialog2/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591867384014" />
+    <state width="2486" height="290" key="GridCell.Tab.0.bottom" timestamp="1591692809576">
+      <screen x="2560" y="-369" width="1920" height="1177" />
+    </state>
+    <state width="2486" height="290" key="GridCell.Tab.0.bottom/32.23.2528.1057/2560.-369.1920.1177@2560.-369.1920.1177" timestamp="1591692809576" />
+    <state width="2486" height="290" key="GridCell.Tab.0.bottom/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591691593039" />
+    <state width="2486" height="290" key="GridCell.Tab.0.center" timestamp="1591692809575">
+      <screen x="2560" y="-369" width="1920" height="1177" />
+    </state>
+    <state width="2486" height="290" key="GridCell.Tab.0.center/32.23.2528.1057/2560.-369.1920.1177@2560.-369.1920.1177" timestamp="1591692809575" />
+    <state width="2486" height="290" key="GridCell.Tab.0.center/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591691593038" />
+    <state width="2486" height="290" key="GridCell.Tab.0.left" timestamp="1591692809574">
+      <screen x="2560" y="-369" width="1920" height="1177" />
+    </state>
+    <state width="2486" height="290" key="GridCell.Tab.0.left/32.23.2528.1057/2560.-369.1920.1177@2560.-369.1920.1177" timestamp="1591692809574" />
+    <state width="2486" height="290" key="GridCell.Tab.0.left/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591691593038" />
+    <state width="2486" height="290" key="GridCell.Tab.0.right" timestamp="1591692809575">
+      <screen x="2560" y="-369" width="1920" height="1177" />
+    </state>
+    <state width="2486" height="290" key="GridCell.Tab.0.right/32.23.2528.1057/2560.-369.1920.1177@2560.-369.1920.1177" timestamp="1591692809575" />
+    <state width="2486" height="290" key="GridCell.Tab.0.right/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591691593039" />
+    <state x="896" y="280" key="Vcs.Push.Dialog.v2" timestamp="1591867387745">
+      <screen x="32" y="23" width="2528" height="1057" />
+    </state>
+    <state x="896" y="280" key="Vcs.Push.Dialog.v2/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591867387745" />
+    <state x="1101" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591886185510">
+      <screen x="32" y="23" width="2528" height="1057" />
+    </state>
+    <state x="1101" y="475" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591886185510" />
+    <state x="855" y="435" key="run.anything.popup" timestamp="1591864352472">
+      <screen x="32" y="23" width="2528" height="1057" />
+    </state>
+    <state x="3185" y="90" key="run.anything.popup/32.23.2528.1057/2560.-369.1920.1177@2560.-369.1920.1177" timestamp="1591033293369" />
+    <state x="855" y="435" key="run.anything.popup/32.23.2528.1057/2560.-369.1920.1177@32.23.2528.1057" timestamp="1591864352472" />
+  </component>
+</project>
