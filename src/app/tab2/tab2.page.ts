@@ -6,6 +6,7 @@ import { EquationString } from './equationString';
   templateUrl: 'tab2.page.html',
   styleUrls: ['tab2.page.scss']
 })
+
 export class Tab2Page {
     title: string = 'Addieren';
     subtitle: string = 'Einstieg ohne Zehnerübergang mit Stellentafel: bis 100 bis 1.000';
