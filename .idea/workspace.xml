@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="763151a6-9740-4719-8403-bc09dfe646a2" name="Default Changelist" comment="" />
+    <list default="true" id="763151a6-9740-4719-8403-bc09dfe646a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +91,7 @@
       <workItem from="1591275628250" duration="3493000" />
       <workItem from="1591339004485" duration="2382000" />
       <workItem from="1591688857255" duration="3437000" />
-      <workItem from="1591858640338" duration="7787000" />
+      <workItem from="1591858640338" duration="8152000" />
     </task>
     <task id="LOCAL-00001" summary="zoom buttons">
       <created>1591690108635</created>
