@@ -17,12 +17,17 @@
 
   <button name="zoomPlus" (click)="changeZoom(-0.10)">zoom: - </button>
   <button name="zoomMinus" (click)="changeZoom(+0.10)">zoom: + </button>
+  <button name="orginalsize" (click)="ogSizeON()">orginal Größe</button>
+  <button name="autoresize" (click)="autoResize()">auto resize</button>
+
+  <button name="download" (click)="download()">download</button>
 
   <pdf-viewer [src]="pdfSrc"
               [render-text]="true"
-              [original-size]="false"
+              [original-size]="ogSize"
               [zoom] = zoom
               [external-link-target]="'blank'"
+              [autoresize] = autoresize
               style="display: block;"
   ></pdf-viewer>
 </ion-content>

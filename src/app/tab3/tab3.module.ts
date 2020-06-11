@@ -10,6 +10,8 @@ import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 import { Tab3PageRoutingModule } from './tab3-routing.module'
 
+import { HttpClientModule }    from '@angular/common/http';
+
 @NgModule({
   imports: [
     IonicModule,
@@ -18,7 +20,8 @@ import { Tab3PageRoutingModule } from './tab3-routing.module'
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab3Page }]),
     Tab3PageRoutingModule,
-    PdfViewerModule
+    PdfViewerModule,
+    HttpClientModule
   ],
   declarations: [Tab3Page]
 })
