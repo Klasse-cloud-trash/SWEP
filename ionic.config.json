@@ -1,5 +1,5 @@
 {
   "name": "klasseCloud",
-  "integrations": {},
+  "integrations": {"capacitor": {}},
   "type": "angular"
 }

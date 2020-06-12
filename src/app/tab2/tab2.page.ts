@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { EquationString } from './equationString';
 
+import { PhotoService } from '../services/photo.service';
+
 @Component({
   selector: 'app-tab2',
   templateUrl: 'tab2.page.html',
@@ -20,7 +22,11 @@ export class Tab2Page {
         mode: [0, 1, 0],
     };
 
-  constructor() {
+  constructor(public photoService: PhotoService) {
+  }
+
+  ngOnInit() {
+    this.photoService.loadSaved();
   }
 
   send(){
