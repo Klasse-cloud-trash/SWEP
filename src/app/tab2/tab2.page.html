@@ -1,18 +1,19 @@
 <ion-header [translucent]="true">
-    <ion-toolbar color="success">
-        <ion-title start>Addieren</ion-title>
-        <ion-buttons slot="end">
-            <button (click)="edit()" style="background-color: #2dd36f">
-                <ion-icon name="pencil" color="light"></ion-icon>
-            </button>
-        </ion-buttons>
+    <ion-toolbar color="black">
+        <ion-title start>Aufgaben</ion-title>
     </ion-toolbar>
 </ion-header>
+
 <ion-content>
     <ion-card color="white">
         <div (click)="switchHide()">
             <ion-item color="cyan" lines="none">
                 <ion-card-title color="white">{{title}}</ion-card-title>
+                <ion-buttons slot="end">
+                    <button (click)="switchHide()" style="background-color: #24dbc6">
+                        <ion-icon name="pencil" color="light"></ion-icon>
+                    </button>
+                </ion-buttons>
             </ion-item>
             <br>
 
@@ -23,8 +24,7 @@
 
             <ion-item color=white lines="full">
                 <ion-label position="stacked">Abgabedatum: </ion-label>
-                <ion-datetime display-format="DD.MM.YYYY HH:mm" minute-values="0,15,30,45" readonly [(ngModel)]="endDate" [min]="minDate"
-                              [max]="maxData"> </ion-datetime>
+                <ion-datetime display-format="DD.MM.YYYY HH:mm" readonly [(ngModel)]="endDate"></ion-datetime>
             </ion-item>
 
             <!--
@@ -67,4 +67,20 @@
             <ion-label color="black">Aufgabe senden</ion-label>
         </ion-item>
     </ion-card>
+    <ion-grid>
+        <ion-row>
+            <ion-col size="6"
+                     *ngFor="let photo of photoService.photos; index as position">
+                <ion-img src="{{ photo.base64 ? photo.base64 : photo.webviewPath }}">
+                </ion-img>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+
+    <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+
+        <ion-fab-button (click)="photoService.addNewToGallery()">
+            <ion-icon name="camera"></ion-icon>
+        </ion-fab-button>
+    </ion-fab>
 </ion-content>
